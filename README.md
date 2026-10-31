@@ -1,3 +1,5 @@
-# Text Translator
+# Inventory app
 
-A Python program that translates user-entered text into a chosen language.
+Inventory APP for a store or a shop with different products eg. a ps5 ,a laptop
+and where stock is monitored and managed .
+
