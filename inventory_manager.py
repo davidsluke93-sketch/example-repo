@@ -11,7 +11,7 @@ if stock_quantity<10:
 else:
     print(stock_name,"Restock is not needed")
 
-#step 2:Evaluate stock levels
+#step 2:check stock levels
 
 item_name = "Laptop"
 stock_quantity = 5
@@ -21,7 +21,7 @@ if stock_quantity < 10:
 else:
     print(item_name, "has sufficient stock.")
 
- # Step 3: Categorise stock levels
+ # Step 3: manage stock levels
 
 item_name = "Playstation 5"
 stock_quantity = 20
@@ -36,7 +36,7 @@ else:
     print(item_name, "is overstocked!")   
 
 
-# Step 4: Create a item dictionary
+# Step 4: make a item dictionary
 
 stock_items = {
     "Item A": 10,
@@ -44,7 +44,7 @@ stock_items = {
     "Item C": 5
 }
 
-# Loop through each item and check stock
+# Loop each item and check stock
 
 for item, quantity in stock_items.items():
 
@@ -100,7 +100,7 @@ for item, quantity in stock_items.items():
 
 print("Restocking process complete!")
 
-  # Step 7: Create a placeholder function
+  # Step 7 make a placeholder function
 
 def send_alert(item_name):
     pass
